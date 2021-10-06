@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    
+
+    <section class="calculatorContainer">
+    
+        <section id="displayArea">
+            <div id="currentInput"></div>
+            <div id="answerScreen">0</div>
+        </section>
+        <section class="keyPad-btns">
+
+            <div class="firstRow">
+                <button type="button" class="fun_btn" id="clear">C</button>
+                <button type="button" class="fun_btn" id="erase">&#11013;</button>
+                <button type="button" class="fun_btn" value="/">/</button>
+                <button type="button" class="fun_btn" value="%">%</button>
+            </div>
+
+            <div class="secondRow">
+                <button type="button" class="num_btn" value="7">7</button>
+                <button type="button" class="num_btn" value="8">8</button>
+                <button type="button" class="num_btn" value="9">9</button>
+                <button type="button" class="fun_btn" value="*">x</button>
+            </div>
+
+            <div class="thirdRow">
+                <button type="button" class="num_btn" value="4">4</button>
+                <button type="button" class="num_btn" value="5">5</button>
+                <button type="button" class="num_btn" value="6">6</button>
+                <button type="button" class="fun_btn" value="-">-</button>
+            </div>
+            <div class="fourthRow">
+                <button type="button" class="num_btn" value="1">1</button>
+                <button type="button" class="num_btn" value="2">2</button>
+                <button type="button" class="num_btn" value="3">3</button>
+                <button type="button" class="fun_btn" value="+">+</button>
+            </div>
+
+            <div class="fifthRow">
+                <button type="button" class="num_btn" value="00">00</button>
+                <button type="button" class="num_btn" value="0">0</button>
+                <button type="button" class="num_btn" value=".">.</button>
+                <button type="button" class="fun_btn" value="=" id="evaluate">=</button>
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <script src="./calculator.js" type="text/javascript"></script>
+</body>
+</html>
